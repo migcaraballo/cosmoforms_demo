@@ -9,7 +9,7 @@
 
         <title>Pets Demo</title>
 
-        <link href="/cosmoformsdemo/css/united-bootstrap.min.css" rel="stylesheet">
+        <link href="/cosmoforms_demo/css/united-bootstrap.min.css" rel="stylesheet">
 
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -30,7 +30,7 @@
                         <div class="container-fluid">
                             <ul class="nav navbar-nav">
                                 <li>
-                                    <a href="/cosmoformsdemo/pets/addpet">Add Pet</a>
+                                    <a href="/cosmoforms_demo/pets/addpet">Add Pet</a>
                                 </li>
                             </ul>
                         </div>
@@ -56,7 +56,7 @@
                                     <td><c:out value="${p.nombre}"/></td>
                                     <td><c:out value="${p._id}"/></td>
                                     <td>
-                                        <a href="/cosmoformsdemo/pets/edit/${p._id}">Edit</a>
+                                        <a href="/cosmoforms_demo/pets/edit/${p._id}">Edit</a>
                                     </td>
                                 </tr>
                             </c:forEach>
@@ -70,6 +70,6 @@
     </body>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="/cosmoformsdemo/js/bootstrap.min.js"></script>
+    <script src="/cosmoforms_demo/js/bootstrap.min.js"></script>
 
 </html>

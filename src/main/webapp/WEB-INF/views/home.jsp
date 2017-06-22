@@ -9,7 +9,7 @@
 
         <title>CosmoForms Demo</title>
 
-        <link href="/cosmoformsdemo/css/united-bootstrap.min.css" rel="stylesheet">
+        <link href="/cosmoforms_demo/css/united-bootstrap.min.css" rel="stylesheet">
 
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -33,7 +33,7 @@
                         <div class="panel-heading">Pick A Demo</div>
                         <div class="panel-body">
                             <div class="list-group">
-                                <a href="/cosmoformsdemo/pets" class="list-group-item">Pets Demo</a>
+                                <a href="/cosmoforms_demo/pets" class="list-group-item">Pets Demo</a>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
     </body>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="/cosmoformsdemo/js/bootstrap.min.js"></script>
+    <script src="/cosmoforms_demo/js/bootstrap.min.js"></script>
 
 
 

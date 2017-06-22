@@ -10,7 +10,7 @@
         <title>Pets Demo</title>
 
         <!--<link href="../css/bootstrap.min.css" rel="stylesheet">-->
-        <link href="/cosmoformsdemo/css/united-bootstrap.min.css" rel="stylesheet">
+        <link href="/cosmoforms_demo/css/united-bootstrap.min.css" rel="stylesheet">
 
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -31,30 +31,28 @@
         </div>
     </body>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-    <script src="/cosmoformsdemo/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="/cosmoforms_demo/js/bootstrap.min.js"></script>
 
-    <script src="/cosmoformsdemo/js/jsonpath-0.8.0.js"></script>
-    <script src="/cosmoformsdemo/js/cosmoforms-1.0.0-beta.min.js"></script>
+    <script src="/cosmoforms_demo/js/jsonpath-0.8.0.js"></script>
+    <script src="/cosmoforms_demo/js/cosmoforms-1.0.0-beta.min.js"></script>
 
     <script>
-        var dataUrl = "/cosmoformsdemo/pet-res/get/${pid}";
-        var submitUrl = "/cosmoformsdemo/pet-res/updatepet";
+        var dataUrl = "/cosmoforms_demo/pet-res/get/${pid}";
+        var submitUrl = "/cosmoforms_demo/pet-res/updatepet";
 
         function successAction(responseObject){
-            location.href = "/cosmoformsdemo/pets";
+            location.href = "/cosmoforms_demo/pets";
         }
 
         function cancelAction(){
-            location.href = "/cosmoformsdemo/pets";
+            location.href = "/cosmoforms_demo/pets";
         }
 
         cosmoForm({
             "target_form_id" : "cosmo-form",
             "data_url" : dataUrl,
-            "override_schema_url" : "/cosmoformsdemo/schemas/test_override_schema.json",
+            "override_schema_url" : "/cosmoforms_demo/schemas/test_override_schema.json",
             "submit_url" : submitUrl,
             "success_action": successAction,
             "cancel_action": cancelAction
