@@ -24,9 +24,12 @@ However, here are some links to help you install and get started with the above:
 1. First, make sure you have Java 8 installed and available
 2. Make sure you have successfully installed Maven
 3. Make sure MongoDB is up and running
-4. Execute "mvn clean package"
-    - this will create a war file named: "comosforms_demo.war"
-    - deploy this file to Tomcat's "webapps" directory
+4. Execute Maven Build
+    1. Using a terminal application (unless you have an IDE), CD to the **comsoforms_demo** directory
+    2. Run the command **"mvn clean package"**
+        - this will create a war file named: **"comosforms_demo.war"** in the **"target"** directory created by Maven.
+        - **target** directory should be created at the root of **comsoforms_demo** directory
+    - deploy/copy this file to Tomcat's "webapps" directory
 5. Start Tomcat
 6. Open your favorite browser and goto:
     - http://localhost:8080/cosmoforms_demo
