@@ -24,14 +24,18 @@ However, here are some links to help you install and get started with the above:
 1. First, make sure you have Java 8 installed and available
 2. Make sure you have successfully installed Maven
 3. Make sure MongoDB is up and running
-4. Execute Maven Build
+4. Insert Initial data set in MongoDB
+    1. execute the following: mongo dbscripts/cosmoforms_insert_pets.js
+        - depending on how you setup MongoDB and where you downloaded the source code, your paths will differ
+        - After executing the above script, you will have a DB called **"cosmoforms"** and 1 collection named **"pets"**.
+5. Execute Maven Build
     1. Using a terminal application (unless you have an IDE), CD to the **comsoforms_demo** directory
     2. Run the command **"mvn clean package"**
         - this will create a war file named: **"comosforms_demo.war"** in the **"target"** directory created by Maven.
         - **target** directory should be created at the root of **comsoforms_demo** directory
     - deploy/copy this file to Tomcat's "webapps" directory
-5. Start Tomcat
-6. Open your favorite browser and goto:
+6. Start Tomcat
+7. Open your favorite browser and goto:
     - http://localhost:8080/cosmoforms_demo
     
 If all is working well, you will the following page:
