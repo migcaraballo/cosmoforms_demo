@@ -16,7 +16,7 @@ You will need the following to fully run this demo.
 2. **Tomcat 8** - or any other Java server that can run Java 8 and Servlet Api version 3.1
 3. **MongoDB 3.4.X** - popular document database
 
-Unfortunately, we will not be providing steps on how to set up the above technologies/platforms since that is beyond the scope of this document. 
+Unfortunately, I will not be providing steps on how to set up the above technologies/platforms since that is beyond the scope of this document.
 However, here are some links to help you install and get started with the above:
 
 - [Java 8 Install/Setup](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
