@@ -1,6 +1,7 @@
 /**
  * Created by mig.c on 6/22/17.
  */
+
 db = connect("localhost:27017/cosmoforms");
 
 db.pets.insert({ "id_field" : 2343242323, "nombre" : "Cosmo", "age" : 8, "active" : true, "favorite_foods" : [ "purina one", "water", "blue buffalo biscuits", "deli meats", "wood", "rubber" ], "exercise_schedule" : [ { "day" : "monday", "start_time" : "6:00", "end_time" : "7:30", "active_day" : true }, { "day" : "thursday", "start_time" : "16:00", "end_time" : "18:00", "active_day" : false } ], "res_address" : { "street" : "123 main st", "city" : "los angeles", "state" : "wa", "zip" : 90023 }, "biz_address" : { "street" : "987 center ct", "city" : "san fransico", "state" : "ca", "zip" : 91123 }, "allergies" : [ "peanuts", "chocolate", "milk" ], "moar_allergies" : [ "peanuts", "chocolate", "milk" ] });
