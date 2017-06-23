@@ -25,7 +25,7 @@ However, here are some links to help you install and get started with the above:
 2. Make sure you have successfully installed Maven
 3. Make sure MongoDB is up and running
 4. Insert Initial data set in MongoDB
-    1. execute the following: mongo dbscripts/cosmoforms_insert_pets.js
+    1. execute the following: mongo dbscripts/cosmoforms_insert.js
         - depending on how you setup MongoDB and where you downloaded the source code, your paths will differ
         - After executing the above script, you will have a DB called **"cosmoforms"** and 1 collection named **"pets"**.
 5. Execute Maven Build
