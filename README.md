@@ -3,9 +3,9 @@
 
 ## About The Demo
 
-This demo is a fully integrated UI-to-Database application. You will need to have the proper environement setup & running on your computer in order to successfully run the application, see below.
+This demo is a fully integrated UI-to-Database application. You will need to have the proper environement setup & running on your computer in order to successfully run the application, see "Setup Requirements" below.
 
-At present, I have created a "Pets" demo which shows how to use CosmoForms against a "pets" collection in MongoDB. The demo leverages Java, Spring, and MongoDB and show basic CRUD operations.
+At present, I have created a "Pets" demo which shows how to use CosmoForms against a "pets" collection in MongoDB. The demo leverages Java, Spring, and MongoDB, and shows basic CRUD operations.
 
 ### Setup Requirements
 
