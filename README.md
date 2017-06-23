@@ -43,7 +43,7 @@ However, here are some links to help you install and get started with the above:
 7. Open your favorite browser and goto:
     - http://localhost:8080/cosmoforms_demo
     
-If all is working well, you will the following page:
+If all is working well, you will see the following page:
 
 ![alt image](cosmoforms_demo_ss.png)
     
